@@ -12,7 +12,7 @@ pip install SpeechRecognition
 
 ### Important points(PyAudio module error)
 
-To install PyAudio module, go to dependency/ folder download the file and run:
+To install PyAudio module, go to `dependency/` folder download the file and run:
 (make sure your machine have python3.11 version)
 
 ```bash
