@@ -8,6 +8,8 @@ First open your terminal and install necessary modules:
 pip install pyttsx3
 
 pip install SpeechRecognition
+
+pip install wikipedia
 ```
 
 ### Important points(PyAudio module error)
