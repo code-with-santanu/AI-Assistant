@@ -1,7 +1,7 @@
 from speak import *
 
 import datetime
-
+import wikipedia
 
 
 def greet():
@@ -17,6 +17,12 @@ def greet():
         speak("Good night sir")
 
     speak("alfred at your service. how can I help you?")
+
+
+def offline():
+    speak('thank you')
+    speak('going offline')
+    quit()
 
 
 def time():
@@ -35,7 +41,7 @@ def date():
     speak(year)
 
 
-def offline():
-    speak('thank you')
-    speak('going offline')
-    quit()
+def search(query, line):
+    result = wikipedia.summary(query, sentences=line)
+    print(result)
+    speak(result)
